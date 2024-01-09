@@ -1,7 +1,4 @@
 /* shared css file */
-* {
-    font-family: Merriweather;
-}
 
 main {
     margin: 50px 20px 50px;
@@ -17,34 +14,34 @@ main {
     background-position: center;
     border-radius: 16px;
 }
-
 .sub-title {
     font-size: 35px;
+    font-weight: 400;
     text-align: center;
     padding-top: 15%;
 }
 .headline {
     font-size: 72px;
+    font-weight: 700;
     width: 630px;
     height: 40px;
     text-align: center;
-    padding-top: 0px;
     padding-left: 25%;
-}
-/* .subtitle {
-    width: 260px;
-    height: 40px;
-    font-size: 32px;
-    text-align: center;
-    padding-top: 175px;
-    margin: 0 auto;
+    padding-top: 30px;
 }
 
-.headline {
-    width: 632px;
-    height: 190px;
-    font-size: 72px;
+/* discount */
+.discount {
+    color: #F00;
     text-align: center;
-    margin: 0 auto;
-    padding: 40px 350px 170px;
-} */
+    padding-top: 50px;
+}
+.dis-title {
+    font-size: 88px;
+    font-weight: 700;
+}
+.dis-subtitle {
+    color: #070211;
+    font-size: 30px;
+    font-weight: 700;
+}
