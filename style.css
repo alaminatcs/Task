@@ -175,7 +175,7 @@ a {
 }
 .box {
     width: 60%;
-    height: 520px;
+    height: 540px;
     background-image: url("./resources/group75.png");
     background-size: cover;
 }
@@ -199,8 +199,8 @@ a {
 
 /* shop */
 .shop {
-    height: 975px;
-    padding-top: 20px;
+    height: 990px;
+    padding-top: 50px;
     line-height: 15px;
 }
 .row {
@@ -218,7 +218,7 @@ a {
 /* newsletter */
 .newsletter {
     height: 420px;
-    margin-top: 40px;
+    margin-top: 50px;
     background: rgba(255, 0, 0, 0.10);
     border-radius: 16px;
     text-align: center;
