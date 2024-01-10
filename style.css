@@ -12,7 +12,7 @@ hr {
 .banner {
     color: #fff;
     height: 600px;
-    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("/resources/Banner\ Image.png");
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("./resources/banner_image.png");
     background-size: cover;
     background-position: center;
     border-radius: 16px;
@@ -54,7 +54,7 @@ hr {
     margin-top: 50px;
     height: 600px;
     color: #fff;
-    background: linear-gradient(to right, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("/resources/round.jpg");
+    background: linear-gradient(to right, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("./resources/round.png");
     background-size: cover;
     background-position: center;
     border-radius: 16px;
@@ -108,11 +108,11 @@ hr {
 .box {
     width: 60%;
     height: 530px;
-    background-image: url("/resources/Group 75.png");
+    background-image: url("./resources/group75.png");
     background-size: cover;
 }
 .disc {
-    background-image: url("/resources/discount.jpg");
+    background-image: url("./resources/discount.png");
     background-size: cover;
     background-position: center;
     width: 35%;
@@ -125,7 +125,7 @@ hr {
     padding-bottom: 50px;
     height: 90px;
     border-radius: 5px 0px 5px 5px;
-    background-image: url("./resources/Rectangle\ 2.png");
+    background-image: url("./resources/rectangle2.png");
     background-size: cover;
     background-position: center;
 }
