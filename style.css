@@ -13,7 +13,14 @@ a {
 }
 p {
     line-height: 25px;
-    font-weight: bold;
+}
+button {
+    color: #fff;
+    font-weight: bolder;
+    border:none;
+    outline: none;
+    background: #F00;
+    cursor: pointer;
 }
 
 /* bannner */
@@ -113,13 +120,9 @@ p {
     line-height: 5px;
 }
 .join-button {
-    color: #fff;
-    font-weight: bolder;
     padding: 10px 40px;
     margin-top: 30px;
-    border: 0;
     border-radius: 5px;
-    background: #F00;
 }
 
 /* upcoming */
@@ -165,12 +168,15 @@ p {
     font-size: 20px;
     margin: 0px;
 }
-.holidays .sale {
+.sale {
     color: #F00;
     text-align: center;
     font-size: 60px;
     font-weight: 900;
     margin: 0px;
+}
+.sale-black {
+    color: #000;
 }
 .holidays .sec-part {
     display: flex;
@@ -207,7 +213,7 @@ p {
 .shop {
     height: 960px;
     padding-top: 70px;
-    margin-bottom: 120px;
+    margin-bottom: 90px;
     line-height: 15px;
 }
 .row {
@@ -244,15 +250,10 @@ p {
     padding-left: 60px;
 }
 .subscribe button {
-    color: #fff;
-    font-weight: bold;
     height: 40px;
     padding: 0px 35px;
-    border: none;
     border-radius: 0px 50px 50px 0px;
-    background: #F00;
     margin-left: -4px;
-    cursor: pointer;
 }
 .subscribe > input {
     border:none;
