@@ -4,7 +4,10 @@ main {
     margin: 50px 20px 50px;
     padding: 0;
 }
-
+hr {
+    margin: 0px 20px;
+    padding: 0;
+}
 /* bannner */
 .banner {
     color: #fff;
@@ -34,7 +37,7 @@ main {
 .discount {
     color: #F00;
     text-align: center;
-    padding-top: 50px;
+    margin-top: 30px;
 }
 .dis-title {
     font-size: 88px;
@@ -44,4 +47,204 @@ main {
     color: #070211;
     font-size: 30px;
     font-weight: 700;
+}
+
+/* midnight */
+.midnight {
+    margin-top: 50px;
+    height: 600px;
+    color: #fff;
+    background: linear-gradient(to right, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("/resources/round.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 16px;
+    display: flex;
+    justify-content: space-around;
+}
+.text-part div {
+    margin-top: 50px;
+    font-size: 72px;
+    font-weight: 700;
+    width: 500px;
+    height: 40px;
+    padding-left: 5%;
+}
+.text-part > pre {
+    margin-top: 200px;
+}
+.party-join {
+    font-size: 30px;
+    padding: 10px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+}
+.image-part {
+    margin-top: 50px;
+}
+
+/* holidays */
+.holidays {
+    height: 900px;
+    text-align: center;
+}
+.holidays > p {
+    font-size: 20px;
+    margin: 0px;
+}
+.holidays .sale {
+    color: #F00;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 900;
+    margin: 0px;
+}
+.holidays .sec-part {
+    display: flex;
+    justify-content: space-between;
+}
+.holidays .sec-part > box {
+    padding-top: 300px;
+}
+.box {
+    width: 60%;
+    height: 530px;
+    background-image: url("/resources/Group 75.png");
+    background-size: cover;
+}
+.disc {
+    background-image: url("/resources/discount.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 35%;
+}
+.disc > img {
+    margin-top: 35%;
+    margin-left: -100%;
+}
+.third {
+    padding-bottom: 50px;
+    height: 90px;
+    border-radius: 5px 0px 5px 5px;
+    background-image: url("./resources/Rectangle\ 2.png");
+    background-size: cover;
+    background-position: center;
+}
+
+/* shop */
+.shop {
+    height: 975px;
+    line-height: 15px;
+}
+.row {
+    display: flex;
+    padding-bottom: 20px;
+}
+.row  img {
+    width: 95%;
+    box-shadow: 10px 10px 5px rgb(151, 150, 150);
+}
+.row img:hover {
+    transform: scale(1.05);
+}
+
+/* newsletter */
+.newsletter {
+    height: 
+}
+
+/* invitation */
+.invitation {
+    height: 480px;
+}
+.schedule {
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    border-radius: 16px;
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.schedule-sub {
+    color: #F00;
+    font-weight: bold;
+}
+.join-button {
+    color: #fff;
+    font-weight: bolder;
+    padding: 10px 40px;
+    margin-top: 30px;
+    border: 0;
+    border-radius: 5px;
+    background: #F00;
+}
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* upcoming */
+.upcoming {
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.offer {
+    width: 25%;
+    height: 50%;
+    text-align: center;
+}
+.enjoy {
+    width: 25%;
+}
+.circle {
+    border-radius: 50%;
+    border: 15px solid #F00;
+    position: relative;
+}
+.circle > img {
+    height: 80%;
+    width: 85%;
+    margin: 20px;
+}
+.year-symbol {
+    width: 25%;
+}
+.year {
+    color: #F00;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+
+/* footer */
+footer {
+    height: 350px;
+    color: #fff;
+    font-size: normal;
+    line-height: normal;
+    padding: 30px;
+    background-color: #070211;
+}
+.address {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.social-media {
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+}
+.social-media > div {
+    margin: 0 20px;
+}
+.copy-subscription {
+    margin: 20px 20px 0px;;
+    display: flex;
+    justify-content: space-between;
 }
