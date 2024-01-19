@@ -1,59 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>AH Travel</title>
-    <link rel="stylesheet" href="./styles/style.css">
-    <link rel="stylesheet" href="./styles/nav.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/nav.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
     <header>
-        <nav>
-            <div class="left-nav">
-                <img src="./images/logo.png" alt="banner image">
-            <div class="logo-text">AH <span class="red-text">Travel</span> </div>
-            </div>
-            <input type="checkbox" title="check" id="check">
-            <label for="check" class="check-button">
-                <i class="fa fa-bars"></i>
-            </label>
-            <ul>
-                <li><a href="index.html"><span class="red-text">Home</span></a></li>
-                <li><a href="packages.html">Packages</a></li>
-                <li><a href="testimonial.html">Testmonial</a></li>
-                <li><a href="blog.html">Blog</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
+      <nav>
+        <div class="left-nav">
+          <img src="./images/logo.png" alt="banner image" />
+          <div class="logo-text">AH <span class="red-text">Travel</span></div>
+        </div>
+        <input type="checkbox" title="check" id="check" />
+        <label for="check" class="check-button">
+          <i class="fa fa-bars"></i>
+        </label>
+        <ul>
+          <li>
+            <a href="index.html"><span class="red-text">Home</span></a>
+          </li>
+          <li><a href="packages.html">Packages</a></li>
+          <li><a href="testimonial.html">Testmonial</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
     </header>
     <main>
-        <section class="banner">
-            <div class="heading">Explore Your Travel</div>
-            <div class="heading-description">Dolor sit amet consectetur. Nullam suspendisse vitae ultricies dolor adipiscing. In et odio 
-                enim ac quis sapien urna eu phasellus.</div>
-            <div class="search-option">
-                <form>
-                    <div class="place-search">
-                        <input type="search" id="place-search" placeholder="Where to go">
-                    </div>
-                    <div class="date">
-                        <input type="date" id="date" title="When">
-                    </div>
-                    <div class="select-type">
-                        <select name="tour-type" id="tour-type" title="Select Type">
-                            <option value="select">Select Type</option>
-                            <option value="regular">Regular</option>
-                            <option value="packages">Package</option>
-                            <option value="premium">Premium</option>
-                        </select>
-                    </div>
-                    <div class="find-now">
-                        <button type="submit">Find Now</button>
-                        <!-- <input type="submit" id="find-now" value="Find Now"> -->
-                    </div>
-                    <!-- <label for="place-search">
+      <section class="banner">
+        <div class="heading">Explore Your Travel</div>
+        <div class="heading-description">
+          Dolor sit amet consectetur. Nullam suspendisse vitae ultricies dolor
+          adipiscing. In et odio enim ac quis sapien urna eu phasellus.
+        </div>
+        <div class="search-option">
+          <form>
+            <div class="place-search">
+              <input
+                type="search"
+                id="place-search"
+                placeholder="Where to go"
+              />
+            </div>
+            <div class="date">
+              <input type="date" id="date" title="When" />
+            </div>
+            <div class="select-type">
+              <select name="tour-type" id="tour-type" title="Select Type">
+                <option value="select">Select Type</option>
+                <option value="regular">Regular</option>
+                <option value="packages">Package</option>
+                <option value="premium">Premium</option>
+              </select>
+            </div>
+            <div class="find-now">
+              <button type="submit">Find Now</button>
+              <!-- <input type="submit" id="find-now" value="Find Now"> -->
+            </div>
+            <!-- <label for="place-search">
                         <input type="search" id="place-search" placeholder="Where go">
                     </label>
                     <label for="date">
@@ -68,58 +79,60 @@
                     <label for="find-now">
                         <input type="submit" id="find-now" value="Find Now">
                     </label> -->
-                </form>
-            </div>
-        </section>
-        <section class="popular-tour">
-            <div class="tour-part1">
-                <h3>Our Popular Tours</h3>
-                <div>
-                    Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit 
-massa. Sodales dictumst nec nibh pellentesque.
-                    <li>Tempus euismod lacus mauris dignissim quis in ultrices. Magna 
-                        nullam odio neque diam. Sociis erat at .</li>
-                    <li>Adipiscing ornare pellentesque mauris volutpat tortor vitae platea 
-                        porta lacus. ectus suspendisse nullam.</li>
-                    <li>Accumsan eget et turpis praesent lorem egestas enim elit 
-                        bibendum. Risus at in.</li>
-                    Amet consectetur. Vulputate commodo felis molestie risus ornare nulla amet et. ibero commodo sagittis dignissim adipiscing quis. Habitant adipiscing risus natoque aliquet. Id bibendum nunc senectus 
-semper tincidunt.
-                </div> <br>
-                <a href=""><button>Read More</button></a>
-            </div>
-            <div class="tour-part2">
-                <img src="./images/tour.png" alt="Mountain Everest Image">
-            </div>
-        </section>
-        <section class="choose-destination">
-            <h3>Choose Your Destination</h3>
-            <p>Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa. 
-                Sodales dictumst nec nibh pellentesque.</p>
-            <!-- <div class="destination-images">
-                <div class="dimage-1"><img src="./images/destination1.png" alt="destination-1"></div>
-                <div class="dimage-2"><img src="./images/destination2.png" alt="destination-2"></div>
-                <div class="dimage-3"><img src="./images/destination3.png" alt="destination-3"></div>
-                <div class="dimage-4"><img src="./images/destination4.png" alt="destination-4"></div>
-                <div class="dimage-5"><img src="./images/destination5.png" alt="destination-5"></div>
-                <div class="dimage-6"><img src="./images/destination6.png" alt="destination-6"></div>
-                <div class="dimage-7"><img src="./images/destination7.png" alt="destination-7"></div>
-            </div> -->
-            <div class="destination-images">
-                <div class="dimage image1">Maldives</div>
-                <div class="dimage image2">Indonesia</div>
-                <div class="dimage image3">Srilanka</div>
-                <div class="dimage image4">North America</div>
-                <div class="dimage image5">Kashmir-India</div>
-                <div class="dimage image6">Bangladesh</div>
-                <div class="dimage image7">Bandarban-BD</div>
-            </div>
-        </section>
-        <section class="why-choose-us"></section>
-        <section class="deals-discount"></section>
-        <section class="perfect-place"></section>
-        <section class="newsletter"></section>
+          </form>
+        </div>
+      </section>
+      <section class="popular-tour">
+        <div class="tour-part1">
+          <h3>Our Popular Tours</h3>
+          <p>
+            Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra
+            odio sit massa. Sodales dictumst nec nibh pellentesque.
+            <li>
+              Tempus euismod lacus mauris dignissim quis in ultrices. Magna
+              nullam odio neque diam. Sociis erat at .
+            </li>
+            <li>
+              Adipiscing ornare pellentesque mauris volutpat tortor vitae platea
+              porta lacus. ectus suspendisse nullam.
+            </li>
+            <li>
+              Accumsan eget et turpis praesent lorem egestas enim elit bibendum.
+              Risus at in.
+            </li>
+            Amet consectetur. Vulputate commodo felis molestie risus ornare
+            nulla amet et. ibero commodo sagittis dignissim adipiscing quis.
+            Habitant adipiscing risus natoque aliquet. Id bibendum nunc senectus
+            semper tincidunt.
+          </p>
+          
+          <a href=""><button>Read More</button></a>
+        </div>
+        <div class="tour-part2">
+          <img src="./images/tour.png" alt="Mountain Everest Image" />
+        </div>
+      </section>
+      <section class="choose-destination">
+        <h3>Choose Your Destination</h3>
+        <p>
+          Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra
+          odio sit massa. Sodales dictumst nec nibh pellentesque.
+        </p>
+        <div class="destination-images">
+          <div class="dimage image1"><a href="">Maldives</a></div>
+          <div class="dimage image2"><a href="">Indonesia</a></div>
+          <div class="dimage image3"><a href="">Srilanka</a></div>
+          <div class="dimage image4"><a href="">North America</a></div>
+          <div class="dimage image5"><a href="">Kashmir-India</a></div>
+          <div class="dimage image6"><a href="">Bangladesh</a></div>
+          <div class="dimage image7"><a href="">Bandarban-BD</a></div>
+        </div>
+      </section>
+      <section class="why-choose-us"></section>
+      <section class="deals-discount"></section>
+      <section class="perfect-place"></section>
+      <section class="newsletter"></section>
     </main>
     <footer></footer>
-</body>
+  </body>
 </html>
