@@ -105,49 +105,49 @@ input, select {
 }
 .image1 {
     grid-area: i1;
-    background-image: url("/images/destination1.png");
+    background-image: url("/images/maldives.png");
     background-size: cover;
     background-position: center;
     cursor: pointer;
 }
 .image2 {
     grid-area: i2;
-    background-image: url("/images/destination2.png");
+    background-image: url("/images/indonesia.png");
     background-size: cover;
     background-position: center;
     cursor: pointer;
 }
 .image3 {
     grid-area: i3;
-    background-image: url("/images/destination3.png");
+    background-image: url("/images/srilanka.png");
     background-size: cover;
     background-position: center;
     cursor: pointer;
 }
 .image4 {
     grid-area: i4;
-    background-image: url("/images/destination4.png");
+    background-image: url("/images/north_america.png");
     background-size: cover;
     background-position: center;
     cursor: pointer;
 }
 .image5 {
     grid-area: i5;
-    background-image: url("/images/destination5.png");
+    background-image: url("/images/kashmir.png");
     background-size: cover;
     background-position: center;
     cursor: pointer;
 }
 .image6 {
     grid-area: i6;
-    background-image: url("/images/destination6.png");
+    background-image: url("/images/bangladesh.png");
     background-size: cover;
     background-position: center;
     cursor: pointer;
 }
 .image7 {
     grid-area: i7;
-    background-image: url("/images/destination7.png");
+    background-image: url("/images/bandarban.png");
     background-size: cover;
     background-position: center;
     cursor: pointer;
