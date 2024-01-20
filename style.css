@@ -361,17 +361,17 @@ footer hr {
     
     /* Newsletter responsive */
     .newsletter {
-        flex-direction: column-reverse;
+        flex-direction: column;
     }
     .newspart-1 {
         width: 100%;
-        margin-top: 3rem;
+        margin-bottom: 3rem;
     }
     .newsletter img {
         width: 100%;
     }
     .discount-cupon {
-        margin-bottom: 30em;
+        margin-top: 33em;
         padding: 0.2em;
         right: 4em;
     }
@@ -434,17 +434,17 @@ footer hr {
 
     /* Newsletter responsive */
     .newsletter {
-        flex-direction: column-reverse;
+        flex-direction: column;
     }
     .newspart-1 {
         width: 100%;
-        margin-top: 3rem;
+        margin-bottom: 3rem;
     }
     .newsletter img {
         width: 100%;
     }
     .discount-cupon {
-        margin-bottom: 30em;
+        margin-top: 35em;
     }
 }
 
