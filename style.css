@@ -6,10 +6,6 @@
 body {
     margin: 2.5% 5%;
 }
-h3 {
-    font-size: 2.5rem;
-    padding-bottom: 1.5rem;
-}
 button {
     width: 10rem;
     height: 2.5rem;
@@ -22,12 +18,17 @@ button {
     outline: none;
     cursor: pointer;
 }
-p {
-    text-align: center;
-}
 a {
     text-decoration: none;
     color: #fff;
+}
+.title {
+    font-size: 2.5rem;
+    text-align: center;
+    padding-bottom: 1.5rem;
+}
+.title-description {
+    text-align: center;
 }
 
 /* banner */
@@ -84,12 +85,18 @@ input, select {
     display: flex;
     justify-content: space-between;
 }
+.popular-tour h3 {
+    text-align: justify;
+}
 .tour-part1 {
     width: 48%;
     height: 100%;
     padding-left: 2%;
-    text-align: justify;
     line-height: 2rem;
+}
+
+.tour-part1 p {
+    text-align: justify;
 }
 .tour-part1 li {
     padding: 1.5rem;
@@ -183,14 +190,6 @@ input, select {
 .why-choose-us {
     
 }
-.why-choose-us h3, p {
-    text-align: center;
-    padding-bottom: 1.5rem;
-}
-.why-choose-us h3 {
-    /* font-size: 1.5rem; */
-    font-weight: 800;
-}
 .hotel-button,
 .map-button, .price-button{
     font-size: 3.8rem;
@@ -200,16 +199,18 @@ input, select {
     display: flex;
     padding: 1rem 1.5rem;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     border-radius: 16px;
     border: 1px solid rgba(251, 181, 99, 0.20);
     background: rgba(251, 181, 99, 0.05);
     margin: 2rem auto;
 }
+.container p, h4 {
+    text-align: justify;
+    padding-top: 0.6rem;
+}
 .card-container {
     /* text-align: center; */
-    /* padding-top: 3rem; */
+    padding-top: 1rem;
     display: flex;
     flex-wrap: wrap;
     /* display: grid;
@@ -243,11 +244,34 @@ input, select {
 
 /* footer */
 footer {
-    border: 2px solid red;
-    border-radius: 10px;
+    background: rgba(19, 19, 24, 0.05);
+    padding: 2rem 0;
+}
+.footer-first {
+    display: flex;
+    justify-content: center;
+}
+footer p {
+    margin: 1rem 20%;
+    text-align: center;
+}
+.social-link {
+    display: flex;
+    justify-content: center;
+}
+.social-link a {
+    color: black;
+    margin: 0 2%;
+    padding-bottom: 1rem;
+}
+footer hr {
+    width: 65%;
+    margin: 0 auto;
 }
 
-/* media query */
+
+
+/* media query start from here */
 
 /* small devices */
 @media screen and (max-width: 576px) {
@@ -306,6 +330,7 @@ footer {
     }
     
 }
+
 /* medium and large */
 @media screen and (min-width:576px) and (max-width:992px){
     /* banner responsive */
@@ -363,10 +388,7 @@ footer {
 }
 
 /* extra large devices */
-@media screen and (min-width: 1440px) {
-    .tour-part1 li {
-        padding: 2.5rem;
-    }
+@media screen and (min-width: 1400px) {
     .container {
         width: 40rem;
         /* paddin */
