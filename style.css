@@ -13,7 +13,7 @@ button {
     font-size: 1.2rem;
     font-weight: bold;
     color: #fff;
-    background-color: #FF5400;;
+    background-color: #FF5400;
     border: none;
     outline: none;
     cursor: pointer;
@@ -187,9 +187,6 @@ input, select {
 }
 
 /* why-choose-us */
-.why-choose-us {
-    
-}
 .hotel-button,
 .map-button, .price-button{
     font-size: 3.8rem;
@@ -226,20 +223,53 @@ input, select {
 
 /* deals-discount */
 .deals-discount {
-    border: 2px solid red;
-    border-radius: 10px;
+    
 }
 
 /* perfect-place */
 .perfect-place {
-    border: 2px solid red;
-    border-radius: 10px;
+    
 }
 
 /* newsletter */
 .newsletter {
-    border: 2px solid red;
-    border-radius: 10px;
+    margin: 3rem 0;
+    display: flex;
+    justify-content: space-between;
+}
+.newsletter h3 {
+    font-weight: bolder;
+}
+.newspart-1 {
+    width: 35%;
+    padding: 2rem;
+    line-height: 3rem;
+    border: 1px solid #FF5400;
+    border-radius: 1rem;
+}
+.newspart-1 input {
+    width: 90%;
+    text-align: center;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+}
+#subscribe {
+    width: 90%;
+    border-radius: 8px;
+}
+.discount-cupon {
+    color: #fff;
+    text-align: center;
+    font-weight: bolder;
+    background-color: #FF5400;
+    padding: 2em;
+    border-radius: 0.5rem;
+
+    position: absolute;
+    right: 8em;
+    margin-top: 15em;
+    transform: rotate(-30deg);
 }
 
 /* footer */
@@ -329,6 +359,22 @@ footer hr {
         width: 95%;
     }
     
+    /* Newsletter responsive */
+    .newsletter {
+        flex-direction: column-reverse;
+    }
+    .newspart-1 {
+        width: 100%;
+        margin-top: 3rem;
+    }
+    .newsletter img {
+        width: 100%;
+    }
+    .discount-cupon {
+        margin-bottom: 30em;
+        padding: 0.2em;
+        right: 4em;
+    }
 }
 
 /* medium and large */
@@ -384,6 +430,21 @@ footer hr {
     /* why-choose-us responsive */
     .container {
         width: 95%;
+    }
+
+    /* Newsletter responsive */
+    .newsletter {
+        flex-direction: column-reverse;
+    }
+    .newspart-1 {
+        width: 100%;
+        margin-top: 3rem;
+    }
+    .newsletter img {
+        width: 100%;
+    }
+    .discount-cupon {
+        margin-bottom: 30em;
     }
 }
 
