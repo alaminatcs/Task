@@ -56,7 +56,7 @@ a {
 }
 .search-option {
     height: 15%;
-    width: 70%;
+    width: 80%;
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.30);
 }
@@ -89,7 +89,11 @@ input, select {
     height: 100%;
     padding-left: 2%;
     text-align: justify;
-    line-height: 2.2rem;
+    line-height: 2rem;
+}
+.tour-part1 li {
+    padding: 1.5rem;
+    line-height: 2.5rem;
 }
 .tour-part2 {
     width: 48%;
@@ -171,15 +175,53 @@ input, select {
     color: #fff;
     font-size: 1.6rem;
     font-weight: bolder;
-    height: 15rem;
+    min-height: 20rem;
     border-radius: 1rem;
 }
 
 /* why-choose-us */
 .why-choose-us {
-    border: 2px solid red;
-    border-radius: 10px;
+    
 }
+.why-choose-us h3, p {
+    text-align: center;
+    padding-bottom: 1.5rem;
+}
+.why-choose-us h3 {
+    /* font-size: 1.5rem; */
+    font-weight: 800;
+}
+.hotel-button,
+.map-button, .price-button{
+    font-size: 3.8rem;
+}
+.container {
+    width: 27rem;
+    display: flex;
+    padding: 1rem 1.5rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    margin: 2rem auto;
+}
+.card-container {
+    /* text-align: center; */
+    /* padding-top: 3rem; */
+    display: flex;
+    flex-wrap: wrap;
+    /* display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas:
+    "c1 c1 c1 c2 c2 c2"
+    "c3 c3 c3 c3 c3 c3"
+    ;
+    gap: 5rem; */
+}
+
 
 /* deals-discount */
 .deals-discount {
@@ -240,10 +282,15 @@ footer {
         padding-top: 1rem;
         /* line-height: ; */
     }
+    .tour-part1 li {
+        padding: 0.5rem 1.5rem;
+    }
     .tour-part2 {
         width: 100%;
         padding-top: 2rem;
     }
+
+    /* choose-destination responsive */
     .destination-images {
         width: 100%;
         grid-template-columns: 1fr;
@@ -252,6 +299,12 @@ footer {
         "i1" "i2" "i3" "i4" "i5" "i6" "i7"
         ;
     }
+
+    /* why-choose-us responsive */
+    .container {
+        width: 95%;
+    }
+    
 }
 /* medium and large */
 @media screen and (min-width:576px) and (max-width:992px){
@@ -285,10 +338,15 @@ footer {
         padding-top: 0.5rem;
         /* line-height: 1rem; */
     }
+    .tour-part1 li {
+        padding: 0.5rem 1.5rem;
+    }
     .tour-part2 {
         width: 100%;
         padding-top: 2.5rem;
     }
+
+    /* choose-estination responsive */
     .destination-images {
         width: 100%;
         grid-template-columns: 1fr;
@@ -296,5 +354,21 @@ footer {
         grid-template-areas:
         "i1" "i2" "i3" "i4" "i5" "i6" "i7"
         ;
+    }
+
+    /* why-choose-us responsive */
+    .container {
+        width: 95%;
+    }
+}
+
+/* extra large devices */
+@media screen and (min-width: 1440px) {
+    .tour-part1 li {
+        padding: 2.5rem;
+    }
+    .container {
+        width: 40rem;
+        /* paddin */
     }
 }
