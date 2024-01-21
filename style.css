@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-body {
+header, main {
     margin: 2.5% 5%;
 }
 button {
@@ -187,6 +187,9 @@ input, select {
 }
 
 /* why-choose-us */
+.why-choose-us i {
+    color: #FF5400;
+}
 .hotel-button,
 .map-button, .price-button{
     font-size: 3.8rem;
@@ -204,6 +207,9 @@ input, select {
 .container p, h4 {
     text-align: justify;
     padding-top: 0.6rem;
+}
+.container h4 {
+    font-size: 1.6rem;
 }
 .card-container {
     /* text-align: center; */
@@ -268,6 +274,16 @@ input, select {
     font-size: 1rem;
     /* margin-right: 2rem; */
 }
+.cardtop i {
+    /* display: block; */
+    padding-right: 0.5rem;
+}
+.cardtop span {
+    font-size: 0.5rem;
+    color:black;
+    font-weight: 0.5rem;
+    padding-left: 0.5rem;
+}
 .dealcard .cardtop {
     /* width: 80%; */
     /* display: flex;
@@ -283,7 +299,7 @@ input, select {
 
 /* newsletter */
 .newsletter {
-    margin: 3rem 0;
+    margin: 1.5rem 0;
     display: flex;
     justify-content: space-between;
 }
@@ -324,6 +340,9 @@ input, select {
 
 /* footer */
 footer {
+    /* margin: 0; */
+    margin-top: 4rem;
+    width: 100%;
     background: rgba(19, 19, 24, 0.05);
     padding: 2rem 0;
 }
@@ -433,6 +452,16 @@ footer hr {
         font-size: 1rem;
         /* margin-right: 2rem; */
     }
+    .cardtop i {
+        display: block;
+        padding-bottom: 0.5rem;
+    }
+    .cardtop span {
+        font-size: 0.5rem;
+        color:black;
+        font-weight: 0.5rem;
+        padding-left: 0.5rem;
+    }
     
     /* Newsletter responsive */
     .newsletter {
@@ -505,6 +534,18 @@ footer hr {
     /* why-choose-us responsive */
     .container {
         width: 95%;
+    }
+
+    /* deals and discount */
+    .cardtop i {
+        display: block;
+        padding-bottom: 0.5rem;
+    }
+    .cardtop span {
+        font-size: 0.5rem;
+        color:black;
+        font-weight: 0.5rem;
+        padding-left: 0.5rem;
     }
 
     /* Newsletter responsive */
