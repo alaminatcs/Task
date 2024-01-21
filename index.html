@@ -13,7 +13,6 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/> -->
   </head>
   <body>
     <header>
@@ -45,43 +44,27 @@
         </div>
         <div class="search-option">
           <form>
-            <div class="place-search">
+            <label for="place-search">
               <input
                 type="search"
                 id="place-search"
                 placeholder="Where to go"
               />
-            </div>
-            <div class="date">
-              <input type="date" id="date" placeholder="When" />
-            </div>
-            <div class="select-type">
-              <select name="tour-type" id="tour-type" title="Select Type">
+            </label>
+            <label for="when">
+              <input type="date" id="when" placeholder="When" />
+            </label>
+            <label for="tour-type">
+              <select id="tour-type" title="Select Type">
                 <option value="select">Select Type</option>
                 <option value="regular">Regular</option>
                 <option value="packages">Package</option>
                 <option value="premium">Premium</option>
               </select>
-            </div>
+            </label>
             <div class="find-now">
               <button type="submit">Find Now</button>
-              <!-- <input type="submit" id="find-now" value="Find Now"> -->
             </div>
-            <!-- <label for="place-search">
-                        <input type="search" id="place-search" placeholder="Where go">
-                    </label>
-                    <label for="date">
-                        <input type="date" id="date" placeholder="When">
-                    </label>
-                    <select name="tour-type" id="tour-type" title="Select Type">
-                        <option value="select">Select Type</option>
-                        <option value="regular">Regular</option>
-                        <option value="packages">Package</option>
-                        <option value="premium">Premium</option>
-                    </select>
-                    <label for="find-now">
-                        <input type="submit" id="find-now" value="Find Now">
-                    </label> -->
           </form>
         </div>
       </section>
@@ -144,7 +127,6 @@
         </p>
         <div class="card-container">
           <div class="card-1 container">
-            <!-- <img src="" alt=""> -->
             <div class="hotel-button"><i class="fa-solid fa-hotel"></i></div>
 
             <h4>Handpicked Hotels</h4>
@@ -154,7 +136,6 @@
             </p>
           </div>
           <div class="card-2 container">
-            <!-- <img src="" alt=""> -->
             <div class="map-button">
               <i class="fa-solid fa-map-location"></i>
             </div>
@@ -166,7 +147,6 @@
             </p>
           </div>
           <div class="card-3 container">
-            <!-- <img src="" alt=""> -->
             <div class="price-button"><i class="fa-solid fa-tags"></i></div>
             <h4>Best Price Guarantee</h4>
             <p>
@@ -180,8 +160,9 @@
       <section class="deals-discount">
         <h3 class="title">Deals & Discounts</h3>
         <p class="title-description">
-          Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra
-          odio sit massa. Sodales dictumst nec nibh pellentesque.
+          Unlock savings! Dive into our exclusive deals and discounts. Elevate
+          your travel experience without breaking the bank. Your adventure, your
+          savings.
         </p>
         <div class="dealspart-1">
           <div class="dealcard">
@@ -192,9 +173,12 @@
             </div>
             <h4>Tour To Malaysia</h4>
             <p>
-              Malaysia beckons with diverse attractions. Explore bustling cities, tropical rainforests, and cultural treasures. A tapestry of experiences awaits in Malaysia.
+              Malaysia beckons with diverse attractions. Explore bustling
+              cities, tropical rainforests, and cultural treasures. A tapestry
+              of experiences awaits in Malaysia.
             </p>
-            <h5>Price: $1400-$1600</h5> <br>
+            <h5>Price: $1400-$1600</h5>
+            <br />
             <button>Book Now</button>
           </div>
         </div>
@@ -207,9 +191,12 @@
             </div>
             <h4>Tour To Singapore</h4>
             <p>
-              Singapore is a dynamic cityscape, iconic landmarks, diverse cuisine, and vibrant culture. Uncover the allure of this modern metropolis and its rich heritage.
+              Singapore a dynamic cityscape, iconic landmarks, diverse cuisine,
+              and vibrant culture. Uncover the allure of this modern metropolis
+              and rich heritage.
             </p>
-            <h5>Price: $1500-$1800</h5> <br>
+            <h5>Price: $1500-$1800</h5>
+            <br />
             <button>Book Now</button>
           </div>
         </div>
@@ -222,9 +209,12 @@
             </div>
             <h4>Tour To Thailand</h4>
             <p>
-              In Thailand explore exotic temples, pristine beaches, and vibrant markets. Immerse in rich culture and indulge in thrilling adventures. Unforgettable memories await.
+              In Thailand explore exotic temples, pristine beaches, and vibrant
+              markets. Immerse in rich culture and indulge in thrilling
+              adventures. Unforgettable memories await.
             </p>
-            <h5>Price: $1300-$1500</h5> <br>
+            <h5>Price: $1300-$1500</h5>
+            <br />
             <button>Book Now</button>
           </div>
         </div>
@@ -284,7 +274,7 @@
   <footer>
     <div class="footer-first">
       <img src="./images/logo.png" alt="banner image" />
-      <div class="logo-text">AH <span class="red-text">Travel</span></div>
+      <div class="logo-text">AH <span class="red-text">Tour</span></div>
     </div>
     <p>
       Explore. Experience. Excel. Your journey begins and ends with us. Discover

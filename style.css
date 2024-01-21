@@ -212,18 +212,9 @@ input, select {
     font-size: 1.6rem;
 }
 .card-container {
-    /* text-align: center; */
     padding-top: 1rem;
     display: flex;
     flex-wrap: wrap;
-    /* display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    grid-template-areas:
-    "c1 c1 c1 c2 c2 c2"
-    "c3 c3 c3 c3 c3 c3"
-    ;
-    gap: 5rem; */
 }
 
 
@@ -252,12 +243,10 @@ input, select {
     margin-right: 45%;
 }
 .dealcard {
-    /* height: 80%; */
     width: 50%;
     border-radius: 8px;
     border: 1px solid #FFF;
     background: rgba(255, 255, 255, 0.688);
-    /* backdrop-filter: blur(2.5px); */
     display: block;
     padding: 3rem;
     margin-right: 5%;
@@ -265,17 +254,13 @@ input, select {
     text-align: justify;
 }
 .dealcard h4 {
-    /* color: #FF5400; */
     font-size: 1.5rem;
-    /* margin-right: 2rem; */
 }
 .dealcard i, h5 {
     color: #FF5400;
     font-size: 1rem;
-    /* margin-right: 2rem; */
 }
 .cardtop i {
-    /* display: block; */
     padding-right: 0.5rem;
 }
 .cardtop span {
@@ -283,18 +268,6 @@ input, select {
     color:black;
     font-weight: 0.5rem;
     padding-left: 0.5rem;
-}
-.dealcard .cardtop {
-    /* width: 80%; */
-    /* display: flex;
-    justify-content: space-evenly; */
-}
-.cardtop > div {
-    /* margin-right: 20rem; */
-}
-/* perfect-place */
-.perfect-place {
-    /* margin: 3.5rem auto; */
 }
 
 /* newsletter */
@@ -340,7 +313,6 @@ input, select {
 
 /* footer */
 footer {
-    /* margin: 0; */
     margin-top: 4rem;
     width: 100%;
     background: rgba(19, 19, 24, 0.05);
@@ -381,15 +353,9 @@ footer hr {
     }
     .heading-description {
         width: 80%;
-        /* margin-bottom: 3%; */
     }
     form {
-        /* width: 100%;
-        height: 100%; */
         flex-direction: column;
-        /* justify-content: space-around;
-        align-items: center;
-        flex-wrap: wrap; */
     }
     input, select {
         width: 12rem;
@@ -401,9 +367,7 @@ footer hr {
     }
     .tour-part1 {
         width: 100%;
-        /* text-align: center; */
         padding-top: 1rem;
-        /* line-height: ; */
     }
     .tour-part1 li {
         padding: 0.5rem 1.5rem;
@@ -443,14 +407,11 @@ footer hr {
         text-align: justify;
     }
     .dealcard h4 {
-        /* color: #FF5400; */
         font-size: 1.3rem;
-        /* margin-right: 2rem; */
     }
     .dealcard i, h5 {
         color: #FF5400;
         font-size: 1rem;
-        /* margin-right: 2rem; */
     }
     .cardtop i {
         display: block;
@@ -493,12 +454,7 @@ footer hr {
         /* margin-bottom: 3%; */
     }
     form {
-        /* width: 100%;
-        height: 100%; */
         flex-direction: column;
-        /* justify-content: space-around;
-        align-items: center;
-        flex-wrap: wrap; */
     }
     input, select {
         width: 20rem;
@@ -511,7 +467,6 @@ footer hr {
     .tour-part1 {
         width: 100%;
         padding-top: 0.5rem;
-        /* line-height: 1rem; */
     }
     .tour-part1 li {
         padding: 0.5rem 1.5rem;
@@ -568,6 +523,5 @@ footer hr {
 @media screen and (min-width: 1400px) {
     .container {
         width: 40rem;
-        /* paddin */
     }
 }
