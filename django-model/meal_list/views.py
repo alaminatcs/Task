@@ -1,4 +1,5 @@
 from django.shortcuts import render
+from . form import djangoForm
 
 def home(request):
     meals = [
@@ -71,3 +72,10 @@ def order(request):
         return render(request, 'order.html', dic)
     else:
         return render(request, 'contact.html')
+
+
+def formCall(request):
+    form = djangoForm(request.POST)
+    if form.is_valid():
+        print(form.cleaned_data)
+    return render(request, 'form.html', {'form': form})

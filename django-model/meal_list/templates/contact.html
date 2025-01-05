@@ -3,7 +3,7 @@
 {% block content %}
 <h1 class="text-center font-bold text-3xl">Order Booking</h1>
 <div>
-  <form class="w-1/2 m-auto pt-6" method="GET" action="{% url 'order' %}">
+  <form class="w-1/2 m-auto pt-6" method="POST" action="{% url 'order' %}">
     {% csrf_token %}
     <label class="input input-bordered flex items-center mt-2">
       <input type="text" name="name" placeholder="Customer Name" />
