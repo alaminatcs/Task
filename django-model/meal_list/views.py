@@ -56,11 +56,11 @@ def home(request):
     ]
     return render(request, 'home.html', {'meals': meals})
 
-def contact(request):
-    return render(request, 'contact.html')
-
-
 def order(request):
+    return render(request, 'order.html')
+
+
+def ordered(request):
     if request.method == 'POST':
         dic = {
             'n': request.POST.get('name'),
@@ -69,13 +69,21 @@ def order(request):
             'i': request.POST.get('item'),
             'a': request.POST.get('amount')
         }
-        return render(request, 'order.html', dic)
+        return render(request, 'ordered.html', dic)
     else:
-        return render(request, 'contact.html')
+        return render(request, 'order.html')
 
 
-def formCall(request):
-    form = djangoForm(request.POST)
-    if form.is_valid():
-        print(form.cleaned_data)
+def contact(request):
+    if request.method == 'POST':
+        form = djangoForm(request.POST, request.FILES)
+        if form.is_valid():
+            file = form.cleaned_data['file']
+            with open('meal_list/uploads/' + file.name, 'wb+') as destination:
+                for chunk in file.chunks():
+                    destination.write(chunk)
+            print(form.cleaned_data)
+    else:
+        form = djangoForm()
+    
     return render(request, 'form.html', {'form': form})
