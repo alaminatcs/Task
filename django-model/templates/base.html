@@ -12,8 +12,10 @@
     {% include 'header.html' %}
     <main>
         {% block content %}
-        <h1>Welcome to the Home Page</h1>
-        <p>This is the home page of the Django application.</p>
+        <div class="text-center text-2xl font-bold py-8">
+            <h1>Welcome to the Home Page</h1>
+            <p>This webpage created for the purpose of Django-Form Learning.</p>
+        </div>
         {% endblock %}
     </main>
     {% include 'footer.html' %}
