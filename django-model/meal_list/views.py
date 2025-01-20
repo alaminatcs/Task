@@ -54,7 +54,7 @@ def home(request):
             "idMeal": "52925"
         }
     ]
-    return render(request, 'home.html', {'meals': meals})
+    return render(request, 'meal_home.html', {'meals': meals})
 
 def order(request):
     return render(request, 'order.html')
